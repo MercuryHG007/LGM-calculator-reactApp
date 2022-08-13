@@ -1,5 +1,17 @@
+*{
+  margin: 0;
+  color: white;
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ; */
+}
+
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34;
+  height: 100vh;
 }
 
 .App-logo {
@@ -15,17 +27,95 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+  /* min-height: 100vh; */
+  /* display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 2vmin); */
   color: white;
+  text-align: center;
+  margin: 0px 0px 40px 0px;
+
 }
 
 .App-link {
   color: #61dafb;
+}
+
+#calculator-container{
+  display: flex;
+  min-width: 75vh;
+  background-color: rgb(38, 38, 38);
+}
+
+#main-container{
+  min-height: 75vh;
+  min-width: 60%;
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  
+}
+
+#memory-container{
+  min-width: 40%;
+  max-height: 100%;
+  overflow-y: auto;
+}
+
+#display-container{
+  min-height: 30%;
+}
+
+#buttons-container{
+  min-height: 70%;
+  display: flex;
+  justify-content: flex-end;
+  /* margin: auto; */
+}
+
+.button{
+  min-width: 60px;
+  width: 75px;
+  height: 50px;
+  background-color: rgb(22, 22, 22);
+  margin: 2px;
+  border: none;
+  font-size: large;
+}
+
+.button:hover{
+  background-color: rgb(110, 110, 110) !important ;
+}
+
+.nums{
+  background-color: black !important;
+}
+
+.ops{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.equal{
+  background-color: rgb(130, 43, 43) !important;
+}
+
+.equal:hover{
+  background-color: rgb(187, 38, 38) !important;;
+}
+
+#memory-heading{
+  display: flex;
+  justify-content: right;
+  padding: 10px;
+}
+
+#history{
+  margin-right: 5px;
+  font-size: large;
+  border-bottom: 2px solid rgb(187, 38, 38);
 }
 
 @keyframes App-logo-spin {
