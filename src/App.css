@@ -45,7 +45,7 @@
 
 #calculator-container{
   display: flex;
-  min-width: 75vh;
+  min-width: 50vh;
   height: 74vh;
   max-height: 74vh;
   background-color: rgb(38, 38, 38);
@@ -54,7 +54,7 @@
 #main-container{
   margin: 0 !important;
   min-height: 70vh;
-  min-width: 65%;
+  min-width: 100%;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
