@@ -1,3 +1,3 @@
 # LetsGrowMore
 
-Made this TodoList App using ReactJS as an partial internship project at LetsGrowMore.
+Made this Calculator App using ReactJS as an partial internship project at LetsGrowMore.
